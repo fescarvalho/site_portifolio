@@ -1,6 +1,6 @@
 .banner{
     box-sizing: border-box;
-    background-image: url(/img/rosto.jpg);
+    background-image: url(../img/rosto.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 800px;
