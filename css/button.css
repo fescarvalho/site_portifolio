@@ -1,0 +1,28 @@
+.button, .dowload, .contato{
+    display: inline-block; 
+    font-size: 18px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none; 
+    box-shadow: 4px 3px  rgb(222, 222, 223);
+    border-radius: 5px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.dowload, .contato{
+    box-shadow: 4px 4px  rgb(0, 0, 0);
+
+}
+
+.button:hover, .dowload:hover, .contato:hover{
+    background-color: rgba(5, 205, 255, 0.9);
+    box-shadow: 
+    0 0 5px rgba(5, 205, 255, 0.9),
+    0 0 25px rgba(42, 45, 223, 0.9),
+    0 0 50px rgba(5, 205, 255, 0.9),
+    0 0 150px rgba(1, 2, 92, 0.9);
+    color: rgba(1, 2, 92, 0.9);
+}
+
+

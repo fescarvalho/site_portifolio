@@ -1,0 +1,35 @@
+.box{
+    display: inline-block;
+    background-color:rgb(14, 176, 216);
+    box-shadow: 10px 10px  rgba(3, 1, 36, 0.9);
+    text-align: center;
+    padding: 42px 40px;
+    border-radius: 8px;
+}
+
+.box .main-title{
+    margin-bottom: 24px;;
+}
+
+.main-title {
+ 
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 30px;
+    color:rgba(9, 3, 97, 0.9);
+    text-shadow: 2px 2px  rgb(248, 244, 244);
+}
+
+.subtitle{
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 25px;
+    color:rgba(255, 255, 255, 0.9);
+    text-shadow: 3px 3px  rgba(9, 3, 97, 0.9);
+}
+
+/* TITLE -SKILSS */
+
+ .main-title.-second{
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: none;
+    text-align: center; 
+ }   

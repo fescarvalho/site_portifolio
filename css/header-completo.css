@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+li, a, button{
+    font-family: "Fira Code", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 5%;
+    background-color:rgb(6,6,7);
+    border-bottom: 4px solid rgba(5, 205, 255, 0.9);
+
+}
+
+/* LOGO */
+
+.logo{
+ 
+    width: 65px;
+    left: 5%; 
+    border-radius: 15px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    box-shadow: 2px 2px rgba(5, 205, 255, 0.9);
+}
+
+.logo:hover{
+    background-color: rgba(5, 205, 255, 0.9);
+    box-shadow: 
+    0 0 5px rgba(5, 205, 255, 0.9),
+    0 0 25px rgba(42, 45, 223, 0.9),
+    0 0 50px rgba(5, 205, 255, 0.9),
+    0 0 150px rgba(1, 2, 92, 0.9);
+}
+
+
+/* links */
+
+.nav__links{
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;   
+}
+
+
+.nav__links li {
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 12px;
+}
+
+.nav__links  a {
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease 0s;
+    transform: 100ms cubic-bezier(.45,.97,.68,2.48);
+    
+}
+
+
+.nav__links a:hover {
+    color: rgba(5, 205, 255, 0.9);
+    transform: scale(1.1);
+}
+
+/* ICONE DO LINK */
+.nav__links a::before{
+    content: "";
+    background-color: blue;
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;    
+   
+ }
