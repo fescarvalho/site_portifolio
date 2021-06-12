@@ -1,0 +1,30 @@
+.button-arrow {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    box-shadow: 5px 5px 0px #000;
+}
+
+
+.button-arrow .content {
+    display: none;
+}
+
+.button-arrow::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    width: 18px;
+    height: 18px;
+    /* SETA */
+    border:  20px solid transparent;
+    border-left: 27px solid red;
+    transform: translateX(12px);
+
+}
+
+/* SETA DIREITA */
+.button-arrow.-left::before{
+  transform: rotate(180deg) translateX(12px);
+}
