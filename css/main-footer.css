@@ -1,0 +1,34 @@
+
+.main-footer {
+    width: 100%;
+    display: inline-block;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.redes-sociais{
+    width: 30px;
+    border-radius: 2px;
+    background-color: white;
+    margin: 15px;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.redes-sociais:hover{
+    background-color: rgb(254, 255, 255);
+    box-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.9),
+    0 0 15px rgba(0, 0, 53, 0.9),
+    0 0 20px rgba(244, 244, 245, 0.9),
+    0 0 10px rgba(0, 0, 53, 0.9);
+}
+
+
+
+.main-footer p {
+    font-size: 10px;
+    color: white
+}
