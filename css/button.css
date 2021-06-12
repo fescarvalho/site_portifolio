@@ -24,6 +24,13 @@
     0 0 50px rgba(5, 205, 255, 0.9),
     0 0 150px rgba(1, 2, 92, 0.9);
     color: rgba(1, 2, 92, 0.9);
+    
 }
 
-
+.button.-label{
+    width:100%;
+    color: white;
+}
+.button.-label:hover{
+    color: black;
+}

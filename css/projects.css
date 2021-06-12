@@ -36,3 +36,7 @@
     justify-content: space-evenly;
     padding-top: 30px;
 }
+
+.card-projects:hover{
+    transform: scale(1.08);
+} 
