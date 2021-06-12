@@ -9,7 +9,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 0px 20px 0px;
     background-color: blue;
     width: 280px;
     height: 280px;
@@ -22,3 +21,12 @@
     box-shadow: 10px 10px 0px  blue;
 }
 
+.section.-black{
+    background-color: black;
+}
+
+.wrapper-projects {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
