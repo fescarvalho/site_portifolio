@@ -1,7 +1,7 @@
 body{
     font-family: "Fira Code", Helvetica;
 }
-body, h1, h2, h3{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
