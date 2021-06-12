@@ -10,19 +10,19 @@
 }
 
 
-.banner .wrapper{
+.banner .wrapper-banner{
     display: flex;
     flex-direction: column;
     width: 600px; 
     
 }
 
-.banner .box{
+.banner .box-banner{
     margin-bottom: 40px;
 
 }
 
-.banner .navigation{
+.banner .navigation-banner{
     display: flex;
     justify-content: space-evenly;
 }

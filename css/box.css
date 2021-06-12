@@ -1,0 +1,13 @@
+.box-banner{
+    display: inline-block;
+    background-color:rgb(14, 176, 216);
+    box-shadow: 10px 10px  rgba(3, 1, 36, 0.9);
+    text-align: center;
+    padding: 42px 40px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.box-banner .main-title{
+    margin-bottom: 24px;;
+}
+
