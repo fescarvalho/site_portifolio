@@ -7,6 +7,11 @@
         margin-right: 0;
     }
 
+    .progress-bar::-webkit-progress-bar,
+    .progress-bar::-moz-progress-bar {
+    background-color:rgba(4, 161, 252, 0.9);
+
+}
     
 }
 
@@ -34,7 +39,11 @@
         font-size: 15px;
 
     }
-   
+    .progress-bar::-webkit-progress-bar,
+    .progress-bar::-moz-progress-bar {
+        background-color:rgba(4, 161, 252, 0.9);
+    
+    }
 }
 
 @media (max-width: 725px) {
