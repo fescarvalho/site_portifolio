@@ -27,6 +27,16 @@
     box-shadow: 10px 10px 0px  blue;
 }
 
+.card-projects.-collab .logo-projeto.-card{
+    width: 225px;
+    height: 225px;
+}
+
+.logo-projeto.-foto{
+    width: 225px;
+    height: 225px;
+}
+
 .section.-black{
     background-color: black;
 }
