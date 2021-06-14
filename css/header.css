@@ -9,6 +9,9 @@ li, a, button{
     text-decoration: none;
 }
 
+.menu-mobile{
+    display: none;
+}
 
 .header {
     display: flex;
@@ -47,13 +50,15 @@ li, a, button{
     display: inline-block;
     list-style: none;
     vertical-align: middle;   
+    font-size: 18px;
+     
 }
 
 
 .nav__links li {
-    font-size: 18px;
+    padding: 0 12px  ;
     display: inline-block;
-    padding: 0 12px;
+    
 }
 
 .nav__links  a {

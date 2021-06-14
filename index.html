@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Carvalho</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/reset.css"> 
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/box.css">
@@ -21,24 +25,27 @@
     <link rel="stylesheet" href="./css/main-label.css">
     <link rel="stylesheet" href="./css/main-input.css">
     <link rel="stylesheet" href="./css/main-form.css">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fernando Carvalho</title>
+    <link rel="stylesheet" href="./css/front.css">
+    <link rel="stylesheet" href="./css/responsive.css">  
 </head>
 <body>
-  
     <header class="header">
-       <img class="logo"src="./img/logo.png" alt="logo">
-        <nav>
-            <ul class="nav__links">
+       <img class="logo"src="./img/logo.png" alt="logo">      
+        
+       <nav id="nav">
+        <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expandend="false">Menu
+            <span class="hamb"></span>
+        </button>
+        
+            <ul class="nav__links" role="menu">
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Projetos</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Contato</a></li>  
             </ul>
-            <a class="button" href="#">Download CV</a>           
+           <!--  <a class="button" href="#">Download CV</a> -->           
         </nav>
+        
     </header>
 
    <section class="banner">
@@ -62,7 +69,7 @@
                 <img class="icon" src="./img/ico_html5.png" alt="html">
                 <div class="right"> 
                     <h3 class="title">HTML</h3>
-                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                    <progress class="progress-bar" max="100" value="80">80%</progress>
                 </div>
             </article>  
             <article class="skill-tec">
@@ -76,42 +83,42 @@
                 <img class="icon" src="./img/ico_js.png" alt="js">
                 <div class="right"> 
                     <h3 class="title">JavaScript</h3>
-                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                    <progress class="progress-bar" max="100" value="40">40%</progress>
                 </div>
             </article>  
             <article class="skill-tec">
                 <img class="icon" src="./img/ico_nodejs.png" alt="nodejs">
                 <div class="right"> 
                     <h3 class="title">Node</h3>
-                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                    <progress class="progress-bar" max="100" value="10">10%</progress>
                 </div>
             </article> 
             <article class="skill-tec">
                 <img class="icon" src="./img/ico_react.png" alt="react">
                 <div class="right"> 
                     <h3 class="title">React</h3>
-                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                    <progress class="progress-bar" max="100" value="10">10%</progress>
                 </div>
             </article>  
             <article class="skill-tec">
                 <img class="icon" src="./img/ico_restapi.png" alt="restapi">
                 <div class="right"> 
                     <h3 class="title">Resta API</h3>
-                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                    <progress class="progress-bar" max="100" value="05">05%</progress>
                 </div>
             </article>   
             <article class="skill-tec">
                 <img class="icon" src="./img/ico_tdd.png" alt="tdd">
                 <div class="right"> 
                     <h3 class="title">TDD</h3>
-                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                    <progress class="progress-bar" max="100" value="05">05%</progress>
                 </div>
             </article>  
             <article class="skill-tec">
                 <img class="icon" src="./img/ico_ux.png" alt="ux">
                 <div class="right"> 
                     <h3 class="title">UX</h3>
-                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                    <progress class="progress-bar" max="100" value="25">10%</progress>
                 </div>
             </article>  
         </div>  <!-- DIV PARA WRAPPER-CARDS -->
@@ -198,7 +205,7 @@
     </section>
 
     <section class="section -form">
-        <h2 class="main-title -second -form">Contato</h2>
+        <h2 class="main-title -second -form">Contato</h2>       
         <form class="main-form">
             <label class="main-label" for="name">Nome</label>
             <input class="main-input" id="name" type="text" required>
@@ -229,16 +236,8 @@
         
          <p class="main-title -second">Desenvolvido por Fernando Carvalho</p>
     </footer>
-  
-  
-    <!--  <section class="section -form">
-        <h2 class="main-title -second">Contato</h2>
-    </section>
-        <form action="" method="get">
-            
-        </form>
-   
- -->
+
     <script src="js/components/main-carousel.js"></script>
+    <script src="js/components/menu-mobile.js"></script>
 </body>
 </html>

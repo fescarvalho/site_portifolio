@@ -9,7 +9,9 @@
     cursor:pointer;
     transition: all 0.3s ease 0s;
 }
-
+#btn-mobile{
+    display: none;
+}
 
 .dowload, .contato{
     box-shadow: 4px 4px  rgb(0, 0, 0);
