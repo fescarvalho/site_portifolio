@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="./css/main-form.css">
     <link rel="stylesheet" href="./css/front.css">
     <link rel="stylesheet" href="./css/responsive.css">  
+    <script src="./js/components/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <header class="header">
@@ -39,10 +40,10 @@
         </button>
         
             <ul class="nav__links" role="menu">
-                <li><a href="#">>Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href=#">Contato</a></li>  
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contato">Contato</a></li>  
             </ul>
            <!--  <a class="button" href="#">Download CV</a> -->           
         </nav>
@@ -62,7 +63,7 @@
         </div>
     </section><!-- SECTION-BANNER -->
 
-    <section class="section">
+    <section class="section" id="skill">
         <h2 class="main-title -second">Skills</h2>   
 
         <div class="wrapper-skill">
@@ -125,7 +126,7 @@
         </div>  <!-- DIV PARA WRAPPER-CARDS -->
     </section><!-- SECTION-SKILLS -->
        
-    <section class="section -black">
+    <section class="section -black"  id="projetos">
         <h2 class="main-title -second">Projetos</h2>
         <div class="wrapper-projects">
             <a href="https://fescarvalho.github.io/orc_camisas/" target="_blank">
@@ -146,7 +147,7 @@
         </div>
     </section> <!-- SECTION PROJECTS -->
 
-    <section class="section -sobre">
+    <section class="section -sobre" id="sobre">
        
         <h2 class="main-title -second">Sobre</h2>
             <div class="wrapper-sobre"> 
@@ -204,7 +205,7 @@
             Fernando já trabalhou nas mais diversas áreas. Foi auxiliar de escritório contábil, e atualmente, trabalha na área de comércio, como vendedor varejista. Sempre apaixonado por TI, resolveu entrar na área cursando Análise e Desenvolvimento de Sistemas, pela Unopar. Gosta de ir descobrindo seu caminho conforme o percorre. Fernando procura sempre estar atualizado, perante as novas tecnologias e sempre de olho em comunidades de UX e Front-end, palestras e eventos. Tem diversos cursos na plataforma de cursos online, Udemy. Já teve contato com linguagens de programação como C#, JavaScript, Python,  além de linguagens focadas para o desenvolvimento web, como HTML e CSS, e frameworks, como JQuery e AJAX. Hoje está no último período da Pós Graduação, em Ciência de Dados, também cursando pela Unopar, mas deixa claro, que sua verdadeira paixão na área de TI é o desenvolvimento web Front-end.        </p>  
     </section>
 
-    <section class="section -form">
+    <section class="section -form" id="contato"> 
         <h2 class="main-title -second -form">Contato</h2>       
         <form class="main-form">
             <label class="main-label" for="name">Nome</label>
@@ -239,5 +240,6 @@
 
     <script src="js/components/main-carousel.js"></script>
     <script src="js/components/menu-mobile.js"></script>
+    <script src="js/components/scroll.js"></script>
 </body>
 </html>

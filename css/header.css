@@ -14,7 +14,9 @@ li, a, button{
 }
 
 .header {
+    position: fixed;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding:20px 5%;
@@ -62,6 +64,7 @@ li, a, button{
 }
 
 .nav__links  a {
+    font-size: 25px;
     display: inline-flex;
     align-items: center;
     transition: all 0.3s ease 0s;
