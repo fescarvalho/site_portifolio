@@ -5,7 +5,7 @@ $('nav a').click(function(e){
 
     
     $('html, body').animate({
-        scrollTop: targetOffset - 100
+        scrollTop: targetOffset - 10
     }, 500);
 
     

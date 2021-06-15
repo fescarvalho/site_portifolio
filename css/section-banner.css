@@ -1,26 +1,27 @@
 .banner{
-
     box-sizing: border-box;
     background-color:black;
-    background-image: url(../img/pc.jpg);
+    background-image: url(../img/tela.PNG)  ;
     background-repeat: no-repeat;
     background-size: 100%;
     height: 800px;
     border-bottom: 10px solid rgba(5, 205, 255, 0.9);
     padding-top: 120px;
-    padding-left: 100px;;
-}
+    padding-left: 100px;
 
+}
 
 .banner .wrapper-banner{
     display: flex;
     flex-direction: column;
     width: 600px; 
+    margin-left: 10rem;
+    
     
 }
 
 .box-banner{
-    margin-bottom: 40px;
+    margin-bottom: 40px  ;
     padding-top: 40px;
 
 }
@@ -28,4 +29,5 @@
 .banner .navigation-banner{
     display: flex;
     justify-content: space-evenly;
+
 }
