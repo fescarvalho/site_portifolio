@@ -217,17 +217,22 @@
 
     <section class="section -form" id="contato"> 
         <h2 class="main-title -second -form">Contato</h2>       
-        <form class="main-form">
+
+
+        <form action="https://api.staticforms.xyz/submit" method="POST" class="main-form">
+
+            <input type="hidden" name="accessKey" value="463ff24d-42c7-4b75-ae61-9e1b0c3d0303">
+            <input type="hidden" name="redirectTo" value="https://fescarvalho.github.io/site_portifolio/" >         
             <label class="main-label" for="name">Nome</label>
-            <input class="main-input" id="name" type="text" required>
+            <input class="main-input" id="name"  name="name" type="text" required>
 
             <label class="main-label" for="email">Email</label>
-            <input class="main-input" id="email" type="email" required>
+            <input class="main-input" id="email" name="email" type="email" required>
 
             <label class="main-label" for="mensagem">Mensagem</label>
-            <textarea class="main-input -textarea" name="text" id="text" required></textarea>
+            <textarea class="main-input -textarea" name="message" id="text" required></textarea>
 
-            <input class="button -label" type="submit" value="ENVIAR">
+            <input id="botao" class="button -label" type="submit" value="Enviar">
         </form>
     </section>
 
@@ -248,6 +253,8 @@
          <p class="main-title -second">Desenvolvido por Fernando Carvalho</p>
     </footer>
 
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/components/form.js"></script>
     <script src="js/components/main-carousel.js"></script>
     <script src="js/components/menu-mobile.js"></script>
     <script src="js/components/scroll.js"></script>
